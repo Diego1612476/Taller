@@ -3,7 +3,7 @@
 }
 
 .row{
-    align-content: center;
+    align-items: center;
 }
 
 .card-title{
@@ -12,4 +12,8 @@
 
 .card-text{
     color: white;
+}
+
+.coments{
+    text-align: center;
 }

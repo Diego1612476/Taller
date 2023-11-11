@@ -1,0 +1,128 @@
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        /* Remove the navbar's default margin-bottom and rounded borders */
+        .navbar {
+            margin-bottom: 0;
+            border-radius: 0;
+        }
+
+        /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+        .row.content {
+            height: 450px
+        }
+
+        /* Set gray background color and 100% height */
+        .sidenav {
+            padding-top: 20px;
+            background-color: #f1f1f1;
+            height: 100%;
+        }
+
+        /* Set black background color, white text and some padding */
+        footer {
+            background-color: #555;
+            color: white;
+            padding: 15px;
+        }
+
+        /* On small screens, set height to 'auto' for sidenav and grid */
+        @media screen and (max-width: 767px) {
+            .sidenav {
+                height: auto;
+                padding: 15px;
+            }
+
+            .row.content {
+                height: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Logo</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid text-center">
+        <div class="row content">
+            <div class="col-sm-2 sidenav">
+                <p><a href="#">CARRITO</a></p>
+                <p><a href="#">PRODUCTOS</a></p>
+            </div>
+            <div class="col-sm-8 text-left">
+                <h1 class="text-center">Términos y Condiciones de Uso</h1>
+                <p class="text-left">Bienvenido a nuestra aplicación de ventas de videojuegos. Antes de utilizar nuestros servicios, te instamos a leer detenidamente los siguientes términos y condiciones. Al acceder y utilizar nuestra aplicación, aceptas cumplir con estos términos. Si no estás de acuerdo con alguna parte de estos términos, por favor, abstente de utilizar nuestra aplicación.</p>
+                <hr>
+                <h3>Registro y Cuenta de Usuario</h3>
+                <li>Debes proporcionar información precisa y actualizada durante el proceso de registro</li>
+                <li>Eres responsable de mantener la confidencialidad de tu información de inicio de sesión y eres completamente responsable de todas las actividades que ocurran bajo tu cuenta.</li>
+                <hr>
+                <h3>Uso Adecuado</h3>
+                <li>No debes utilizar la aplicación con fines ilegales o no autorizados.</li>
+                <li>No está permitido violar ninguna ley aplicable en tu jurisdicción al utilizar nuestra aplicación</li>
+                <hr>
+                <h3>Contenido de Usuario</h3>
+                <li>Al proporcionar cualquier tipo de contenido (comentarios, reseñas, etc.), otorgas a la aplicación el derecho no exclusivo de utilizar, reproducir y distribuir dicho contenido.</li>
+                <hr>
+                <h3>Propiedad Intelectual</h3>
+                <li>La aplicación y todo su contenido, características y funcionalidades son propiedad de la empresa y están protegidos por leyes de derechos de autor.</li>
+                <hr>
+                <h3>Modificaciones y Terminación</h3>
+                <li>Nos reservamos el derecho de modificar, suspender o descontinuar cualquier aspecto de la aplicación en cualquier momento y sin previo aviso.</li>
+                <hr>
+                
+            </div>
+            <div class="col-sm-2 sidenav">
+                <div class="well">
+                    <p>ACCIÓN</p>
+                </div>
+                <div class="well">
+                    <p>AVENTURA</p>
+                </div>
+                <div class="well">
+                    <p>TERROR</p>
+                </div>
+                <div class="well">
+                    <p>DEPORTES</p>
+                </div>
+                <div class="well">
+                    <p>ARCADE</p>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+
+    <footer class="container-fluid text-center">
+        <p></p>
+    </footer>
+
+</body>

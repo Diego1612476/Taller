@@ -1,0 +1,15 @@
+.container{
+    text-align: center;
+}
+
+.row{
+    align-content: center;
+}
+
+.card-title{
+    color: white;
+}
+
+.card-text{
+    color: white;
+}

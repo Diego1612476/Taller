@@ -7,7 +7,7 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { HomeComponent } from './screens/home/home.component';
 import { UsuarioComponent } from './screens/usuario/usuario.component';
 import { Error404Component } from './screens/error404/error404.component';
-import { FooterComponent } from './components/footer/footer.component';
+
 import { ProductosComponent } from './screens/productos/productos.component';
 import { TerminosComponent } from './screens/terminos/terminos.component';
 
@@ -18,7 +18,7 @@ import { TerminosComponent } from './screens/terminos/terminos.component';
     HomeComponent,
     UsuarioComponent,
     Error404Component,
-    FooterComponent,
+ 
     ProductosComponent,
     TerminosComponent
   ],

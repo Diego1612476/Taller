@@ -11,14 +11,18 @@ const routes: Routes = [
   {path: 'home', component:HomeComponent},
   {path: 'usuario', component:UsuarioComponent},
 
-  {path: "**", component:Error404Component},
+  
 
 
+
+  
+  {path:'terminos',component:TerminosComponent},
 
   {path:'productos',component:ProductosComponent},
-  {path:'terminos',component:TerminosComponent}
-]
+  
+  {path: "**", component:Error404Component},
 
+]
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]

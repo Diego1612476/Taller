@@ -4,6 +4,7 @@
 
 .row{
     align-items: center;
+    display: inline-block;
 }
 
 .card-title{

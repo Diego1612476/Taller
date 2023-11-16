@@ -5,6 +5,10 @@
 .row{
     align-items: center;
     display: inline-block;
+    
+    
+    justify-content: center;
+    display: flex;
 }
 
 .card-title{
@@ -17,4 +21,20 @@
 
 .coments{
     text-align: center;
+    
 }
+.titul{
+    text-align: center;
+}
+ #foot{
+    text-align: center;
+    background-color: black;
+    color: white;
+ }
+
+ #carta{
+    margin-left: 200px;  
+    display: flex;
+    
+ }
+

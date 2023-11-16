@@ -10,6 +10,8 @@ import { Error404Component } from './screens/error404/error404.component';
 
 import { ProductosComponent } from './screens/productos/productos.component';
 import { TerminosComponent } from './screens/terminos/terminos.component';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -24,7 +26,8 @@ import { TerminosComponent } from './screens/terminos/terminos.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -10,6 +10,9 @@ import { Error404Component } from './screens/error404/error404.component';
 
 import { ProductosComponent } from './screens/productos/productos.component';
 import { TerminosComponent } from './screens/terminos/terminos.component';
+import { CarritoComponent } from './screens/carrito/carrito.component';
+import { TablaCarritoComponent } from './screens/tabla-carrito/tabla-carrito.component';
+import {HttpClientModule} from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -20,11 +23,14 @@ import { TerminosComponent } from './screens/terminos/terminos.component';
     Error404Component,
  
     ProductosComponent,
-    TerminosComponent
+    TerminosComponent,
+    CarritoComponent,
+    TablaCarritoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -12,7 +12,10 @@ import { ProductosComponent } from './screens/productos/productos.component';
 import { TerminosComponent } from './screens/terminos/terminos.component';
 import { CarritoComponent } from './screens/carrito/carrito.component';
 import { TablaCarritoComponent } from './screens/tabla-carrito/tabla-carrito.component';
-import {HttpClientModule} from '@angular/common/http'
+import {HttpClientModule} from '@angular/common/http';
+import { TablaProductosComponent } from './screens/tabla-productos/tabla-prodcutos.component';
+import { RegistroVideojuegoComponent } from './screens/registro-videojuego/registro-videojuego.component';
+import { AdministradorComponent } from './screens/administrador/administrador.component'
 
 
 
@@ -26,7 +29,10 @@ import {HttpClientModule} from '@angular/common/http'
     ProductosComponent,
     TerminosComponent,
     CarritoComponent,
-    TablaCarritoComponent
+    TablaCarritoComponent,
+    TablaProductosComponent,
+    RegistroVideojuegoComponent,
+    AdministradorComponent
   ],
   imports: [
     BrowserModule,

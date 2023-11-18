@@ -6,7 +6,10 @@
             "plataforma": "Nintendo Switch",
             "lanzamiento": "2017-03-03",
             "precio": 59.99,
-            "imagen": "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/The_Legend_of_Zelda_Breath_of_the_Wild.jpg?alt=media&token=d313db59-e23b-4ce6-b135-1b49bdaf119a"
+            "imagen":
+                "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/The_Legend_of_Zelda_Breath_of_the_Wild.jpg?alt=media&token=d313db59-e23b-4ce6-b135-1b49bdaf119a"
+            
+            
         },
         {
             "id": 2,

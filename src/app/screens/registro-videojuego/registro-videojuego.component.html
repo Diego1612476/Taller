@@ -1,0 +1,41 @@
+
+<body>
+    <div class="container mt-3">
+        <h3>REGISTRAR NUEVOS PRODUCTOS</h3>
+        <form >
+            <div class="mb-3 mt-3">
+                <label for="">Ingrese un ID:</label>
+                <input type="text" class="form-control" #ide >
+            </div>
+            <div class="mb-3">
+                <label for="pwd">Nombre:</label>
+                <input type="text" class="form-control" #nombrevid>
+            </div>
+            <div class="mb-3">
+                <label for="pwd">Plataforma:</label>
+                <input type="text" class="form-control" #plataformavid>
+            </div>
+            <div class="mb-3">
+                <label for="pwd">Fecha lanzamiento:</label>
+                <input type="text" class="form-control" #lanzamientovid >
+            </div>
+            <div class="mb-3">
+                <label for="pwd">Precio:</label>
+                <input type="text" class="form-control" #valor >
+            </div>
+            <div class="mb-3">
+                <label for="pwd">Imagen:</label>
+                <input type="url" class="form-control" #imag >
+            </div>
+            <button (click)="guardarProducto(ide.value, nombrevid.value, plataformavid.value,lanzamientovid.value, valor.value, imag.value)" 
+            class="btn btn-primary">Enviar</button>
+
+            <button type="submit" (click)="editarProducto(ide.value, nombrevid.value, plataformavid.value,lanzamientovid.value, valor.value, imag.value)"
+            class="btn btn-success">Editar</button>
+
+            <button (click)="eliminarProducto(ide.value)"
+            class="btn btn-danger">Eliminar</button>
+        </form>
+    </div>
+
+</body>

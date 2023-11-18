@@ -14,6 +14,8 @@ import { CarritoComponent } from './screens/carrito/carrito.component';
 import { TablaCarritoComponent } from './screens/tabla-carrito/tabla-carrito.component';
 import {HttpClientModule} from '@angular/common/http'
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +23,6 @@ import {HttpClientModule} from '@angular/common/http'
     HomeComponent,
     UsuarioComponent,
     Error404Component,
- 
     ProductosComponent,
     TerminosComponent,
     CarritoComponent,

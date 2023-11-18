@@ -3,7 +3,7 @@
     <div class="col md-6">
         <img src="../../../assets/images/gta.jpg" alt="">
 
-        <h4 class="registro"> Regístrate y accede a nuestro amplio catalogo de juegos disponibles para ti </h4>
+        <h4 class="registro"> Regístrate y accede a nuestro amplio catálogo de juegos disponibles para ti </h4>
         
     </div>
 
@@ -13,9 +13,13 @@
             <label class="label">Nombre</label>
             <div class="control">
 <<<<<<< HEAD
+<<<<<<< HEAD
               <input class="input" type="text" placeholder="Ingresa tu nombre ">
 =======
               <input class="input" type="text" placeholder="Ingresa tu nombre ya" #nombre>
+>>>>>>> diego
+=======
+              <input class="input" type="text" placeholder="Ingresa tu nombre" #nombre>
 >>>>>>> diego
             </div>
           </div>
@@ -24,17 +28,28 @@
             <label class="label">Username</label>
             <div class="control ">
               <input class="input" type="text" placeholder="Ingresa el nombre de usuario que deseas usar" #username>
+            </div>
               
             
           
           <div class="field">
             <label class="label">Email</label>
             <div class="control ">
-              <input class="input " type="email" placeholder="Ingresa tu correo electronico" #email>
+              <input class="input " type="email" placeholder="Ingresa tu correo electrónico" #email>
               
             </div>
             
           </div>
+          
+          <div class="field">
+            <label class="label">Clave</label>
+            <div class="control ">
+              <input class="input " type="password" placeholder="Ingresa tu clave personal" #clave>
+              
+            </div>
+            
+          </div>
+      
           
           
           
@@ -54,13 +69,13 @@
           <div class="field is-grouped">
             <div class="control">
               <button class="button is-link"
-              (click)="guardar(nombre.value, username.value, email.value)"
+              (click)="guardar(nombre.value, username.value, email.value, clave.value)"
               >Ingresar</button>
             </div>
             
           </div>
 
-    </div>
+    
 
 </div>
 <img src="../../../assets/images/gta2.jpg" alt="">

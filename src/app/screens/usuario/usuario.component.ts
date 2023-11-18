@@ -18,12 +18,13 @@ export class UsuarioComponent {
     })
   }
 
-  guardar (nombre:string, username:string, email:string){
+  guardar (nombre:string, username:string, email:string, clave:string){
 
     const temp={
       nombre:nombre,
       username:username,
-      email:email
+      email:email,
+      clave:clave
 
     }
 

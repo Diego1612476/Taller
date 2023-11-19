@@ -1,4 +1,25 @@
 <div class="container">
-  <app-tabla-productos></app-tabla-productos>
-
+  <h2>Image Gallery</h2>
+  <p>T</p><div class="row">
+      <div class="col-md-4" *ngFor="let producto of dataProductos">
+          <div class="thumbnail">
+              <a href="{{producto.imagen}}" target="_blank">
+                  <img src="{{producto.imagen}}" alt="Lights" class="imagen-producto">
+              </a>
+              
+              <div class="caption">
+                  <p>{{producto.id}}</p>
+                  <p>{{producto.nombre}}</p>
+                  <p>{{producto.plataforma}}</p>
+                  <p>{{producto.lanzamiento}}</p>
+                  <p>{{producto.precio}}</p>
+                  <p>{{producto.imagen}}</p>
+                  <button class="btn-danger">Agregar</button>
+              </div>
+          </div>
+      </div>
+      <a href="administrador">Administrar Página</a>
+      <a href="carrito">Ir Carrito</a>
+  </div>
 </div>
+

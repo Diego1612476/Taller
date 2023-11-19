@@ -1,5 +1,5 @@
 {
-    "videojuegos": [
+    "productos": [
         {
             "id": 1,
             "nombre": "The Legend of Zelda: Breath of the Wild",
@@ -56,7 +56,7 @@
             "nombre": "Fortnite",
             "plataforma": "Multiplataforma",
             "lanzamiento": "2017-07-25",
-            "precio": 0.00,
+            "precio": 50.00,
             "imagen": "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/fornite.jpg?alt=media&token=3cf3cf77-5b6e-4574-8249-44723267c4d7"
         },
         {
@@ -104,7 +104,7 @@
             "nombre": "League of Legends",
             "plataforma": "PC",
             "lanzamiento": "2009-10-27",
-            "precio": 0.00,
+            "precio": 29.00,
             "imagen": "enlace_a_la_imagen13.jpg"
         },
         {
@@ -128,7 +128,7 @@
             "nombre": "Call of Duty: Warzone",
             "plataforma": "Multiplataforma",
             "lanzamiento": "2020-03-10",
-            "precio": 0.00,
+            "precio": 42.00,
             "imagen": "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/60225-metal-gear-solid-3-subsistence-playstation-2_umwf.jpg?alt=media&token=07520cd1-6b85-4642-bba7-727347b14bc1"
         },
         {
@@ -208,7 +208,7 @@
             "nombre": "Genshin Impact",
             "plataforma": "Multiplataforma",
             "lanzamiento": "2020-09-28",
-            "precio": 0.00,
+            "precio":38.00,
             "imagen": "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/images.jpg?alt=media&token=76253261-ac16-4450-ae1d-8de94fac8ee4"
         },
         {
@@ -296,7 +296,7 @@
             "nombre": "Dota 2",
             "plataforma": "PC",
             "lanzamiento": "2013-07-09",
-            "precio": 0.00,
+            "precio": 32.00,
             "imagen": "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.42%20PM(3).jpeg?alt=media&token=3d79b92b-82eb-4085-a8ab-069f47dc5462"
         },
         {
@@ -360,7 +360,7 @@
             "nombre": "StarCraft II",
             "plataforma": "PC",
             "lanzamiento": "2010-07-27",
-            "precio": 0.00,
+            "precio": 49.99,
             "imagen": "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.37%20PM(2).jpeg?alt=media&token=3774698a-df2a-4438-a73a-6bb1697a3211"
         },
         {

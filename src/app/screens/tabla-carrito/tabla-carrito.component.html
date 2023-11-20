@@ -1,1 +1,26 @@
-<p>tabla-carrito works!</p>
+<body>
+
+    <div class="container mt-3">
+        <h2>Resumen de tu pedido</h2>
+        <table class="table table-primary table-striped">
+            <thead>
+                <tr>
+                    <th>NOMBRE</th>
+                    <th>PRECIO</th>
+                    <th>REFERENCIA</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <tr *ngFor="let producto of dataProductos">
+                        <td>{{producto.nombre}}</td>
+                        <td>{{producto.precio}}</td>
+                        <td>{{producto.imagen}}</td>
+                </tr>
+
+            </tbody>
+        </table>
+        <a href="productos">Seguir comprando</a>
+    </div>
+
+</body>

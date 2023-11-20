@@ -17,7 +17,7 @@ const routes: Routes = [
   {path:'carrito', component:CarritoComponent},
   {path:'administrador',component:AdministradorComponent},
 
-  {path: "**", component:Error404Component},
+  {path: '**',redirectTo:'home',pathMatch:'full'}
 
 ]
 @NgModule({

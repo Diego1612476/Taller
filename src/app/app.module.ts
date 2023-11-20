@@ -16,6 +16,7 @@ import {HttpClientModule} from '@angular/common/http';
 import { TablaProductosComponent } from './screens/tabla-productos/tabla-prodcutos.component';
 import { RegistroVideojuegoComponent } from './screens/registro-videojuego/registro-videojuego.component';
 import { AdministradorComponent } from './screens/administrador/administrador.component'
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -37,7 +38,8 @@ import { AdministradorComponent } from './screens/administrador/administrador.co
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

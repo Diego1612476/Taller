@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 export class UsuariolService {
 
   constructor(private http:HttpClient) { }
-  private API_USUARIOL= ""
+  private API_USUARIOL= "http://localhost:3000/usuario"
 
   getUsuariol(): Observable <any>{
     return this.http.get(this.API_USUARIOL)

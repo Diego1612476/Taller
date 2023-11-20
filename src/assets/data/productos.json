@@ -425,7 +425,21 @@
     ],
     "usuario":[
         {
-            
+            "id": 1,
+            "nombre": "ari",
+            "username": "armels",
+            "email": "arm@gmail.com",
+            "clave": "1234",
+            "cargo": "usuario"
+        },
+        {
+            "id": 2,
+            "nombre": "Martin",
+            "username": "martinex",
+            "email": "marx@gmail.com",
+            "clave": "junes",
+            "cargo": "usuario"
         }
+        
     ]
 }

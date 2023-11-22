@@ -1,445 +1,530 @@
 {
-    "productos": [
-        {
-            "id": 1,
-            "nombre": "The Legend of Zelda: Breath of the Wild",
-            "plataforma": "Nintendo Switch",
-            "lanzamiento": "2017-03-03",
-            "precio": 59.99,
-            "imagen":["https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/The_Legend_of_Zelda_Breath_of_the_Wild.jpg?alt=media&token=d313db59-e23b-4ce6-b135-1b49bdaf119a"]            
-        },
-        {
-            "id": 2,
-            "nombre": "Red Dead Redemption 2",
-            "plataforma": "PlayStation 4, Xbox One",
-            "lanzamiento": "2018-10-26",
-            "precio": 49.99,
-            "imagen": ["https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/Red%20Dead%20Redemption%202.jpg?alt=media&token=38eda362-27d9-4e53-997d-e8d5abf783f1"]
-        },
-        {
-            "id": 3,
-            "nombre": "Cyberpunk 2077",
-            "plataforma": "PC, PlayStation 4, Xbox One",
-            "lanzamiento": "2020-12-10",
-            "precio": 59.99,
-            "imagen":["https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/Cyberpunk_2077_box_art.jpg?alt=media&token=21967590-7a7f-4c7f-9ac5-b0b27efe09d5"]
-        },
-        {
-            "id": 4,
-            "nombre": "Super Mario Odyssey",
-            "plataforma": "Nintendo Switch",
-            "lanzamiento": "2017-10-27",
-            "precio": 54.99,
-            "imagen": ["https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/super%20mario%20odssey.jpg?alt=media&token=07163722-6452-4766-b26d-4d7d9547bf43"]
-        },
-        {
-            "id": 5,
-            "nombre": "The Witcher 3: Wild Hunt",
-            "plataforma": "PC, PlayStation 4, Xbox One",
-            "lanzamiento": "2015-05-19",
-            "precio": 39.99,
-            "imagen": ["https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/The%20Witcher%203%20Wild%20Hunt.jpg?alt=media&token=9dcbb5c4-f2c1-4eea-8578-2b247fefb703"]
-        },
-        {
-            "id": 6,
-            "nombre": "Minecraft",
-            "plataforma": "Multiplataforma",
-            "lanzamiento": "2011-11-18",
-            "precio": 19.99,
-            "imagen": ["https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/Minecraft.jpg?alt=media&token=16c027f6-fec6-4e38-adc7-ce507e2fe9e5"]
-        },
-        {
-            "id": 7,
-            "nombre": "Fortnite",
-            "plataforma": "Multiplataforma",
-            "lanzamiento": "2017-07-25",
-            "precio": 50.00,
-            "imagen": ["https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/fornite.jpg?alt=media&token=3cf3cf77-5b6e-4574-8249-44723267c4d7"]
-        },
-        {
-            "id": 8,
-            "nombre": "Assassin's Creed Valhalla",
-            "plataforma": "PC, PlayStation 4, Xbox One",
-            "lanzamiento": "2020-11-10",
-            "precio": 49.99,
-            "imagen": ["https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/assassins-creed-valhalla-crossover-stories.jpg?alt=media&token=405f267c-ef2e-44a5-b65d-450ea782361b"]
-        },
-        {
-            "id": 9,
-            "nombre": "Overwatch",
-            "plataforma": "PC, PlayStation 4, Xbox One",
-            "lanzamiento": "2016-05-24",
-            "precio": 39.99,
-            "imagen":["https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/Overwatch_cover_art.jpg?alt=media&token=f21807ab-7f57-4644-abdd-64d1a4a3ae8b"] 
-        },
-        {
-            "id": 10,
-            "nombre": "God of War",
-            "plataforma": "PlayStation 4",
-            "lanzamiento": "2018-04-20",
-            "precio": 49.99,
-            "imagen":["https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.37%20PM(1).jpeg?alt=media&token=bbb25ff4-ba02-4836-8f37-0398af3b0c6c"] 
-        },
-        {
-            "id": 11,
-            "nombre": "Persona 5",
-            "plataforma": "PlayStation 4",
-            "lanzamiento": "2017-04-04",
-            "precio": 49.99,
-            "imagen": ["https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.31%20PM(1).jpeg?alt=media&token=0fbb2dad-3985-4c88-94da-993e817cc024"]
-        },
-        {
-            "id": 12,
-            "nombre": "Hollow Knight",
-            "plataforma": "Multiplataforma",
-            "lanzamiento": "2017-02-24",
-            "precio": 14.99,
-            "imagen": ["https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.31%20PM(2).jpeg?alt=media&token=4fb7248b-2747-46bc-aa86-c1936fc46333"]
-        },
-        {
-            "id": 13,
-            "nombre": "League of Legends",
-            "plataforma": "PC",
-            "lanzamiento": "2009-10-27",
-            "precio": 29.00,
-            "imagen": ["https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.41%20PM(2).jpeg?alt=media&token=a45f9dcd-b78c-4ffd-9ad2-9f4d17f9d2ef"]
-        },
-        {
-            "id": 14,
-            "nombre": "Animal Crossing: New Horizons",
-            "plataforma": "Nintendo Switch",
-            "lanzamiento": "2020-03-20",
-            "precio": 49.99,
-            "imagen": ["https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.31%20PM(3).jpeg?alt=media&token=99d8ab9d-9029-4f24-99de-09a6b15c6f03"]
-        },
-        {
-            "id": 15,
-            "nombre": "FIFA 22",
-            "plataforma": "Multiplataforma",
-            "lanzamiento": "2021-10-01",
-            "precio": 59.99,
-            "imagen": ["https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.31%20PM(4).jpeg?alt=media&token=2ef722fc-caca-4886-be25-65571f1c7cc2"]
-        },
-        {
-            "id": 16,
-            "nombre": "Call of Duty: Warzone",
-            "plataforma": "Multiplataforma",
-            "lanzamiento": "2020-03-10",
-            "precio": 42.00,
-            "imagen": ["https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/60225-metal-gear-solid-3-subsistence-playstation-2_umwf.jpg?alt=media&token=07520cd1-6b85-4642-bba7-727347b14bc1"]
-        },
-        {
-            "id": 17,
-            "nombre": "The Elder Scrolls V: Skyrim",
-            "plataforma": "Multiplataforma",
-            "lanzamiento": "2011-11-11",
-            "precio": 39.99,
-            "imagen": ["https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.31%20PM(3).jpeg?alt=media&token=99d8ab9d-9029-4f24-99de-09a6b15c6f03"]
-        },
-        {
-            "id": 18,
-            "nombre": "Star Wars Jedi: Fallen Order",
-            "plataforma": "PC, PlayStation 4, Xbox One",
-            "lanzamiento": "2019-11-15",
-            "precio": 59.99,
-            "imagen":["https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.31%20PM.jpeg?alt=media&token=160153b9-e5ad-4ead-8e3e-034b1ac1e011"] 
-        },
-        {
-            "id": 19,
-            "nombre": "Rainbow Six Siege",
-            "plataforma": "Multiplataforma",
-            "lanzamiento": "2015-12-01",
-            "precio": 29.99,
-            "imagen": ["https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.31%20PM(4).jpeg?alt=media&token=2ef722fc-caca-4886-be25-65571f1c7cc2"]
-        },
-        {
-            "id": 20,
-            "nombre": "Mortal Kombat 11",
-            "plataforma": "Multiplataforma",
-            "lanzamiento": "2019-04-23",
-            "precio": 49.99,
-            "imagen": ["https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/metal-gear-solid-3-snake-eater.webp?alt=media&token=faf4fe16-204b-4030-908e-2948a87b547e"]
-        },
-        {
-            "id": 21,
-            "nombre": "The Last of Us Part II",
-            "plataforma": "PlayStation 4",
-            "lanzamiento": "2020-06-19",
-            "precio": 59.99,
-            "imagen": ["https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/Overwatch_cover_art.jpg?alt=media&token=f21807ab-7f57-4644-abdd-64d1a4a3ae8b"]
-        },
-        {
-            "id": 22,
-            "nombre": "World of Warcraft",
-            "plataforma": "PC",
-            "lanzamiento": "2004-11-23",
-            "precio": 14.99,
-            "imagen": ["https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/e9c4894d7df3d69dcd5e6ff9f7b8a33d.png?alt=media&token=8c9778ec-4238-44be-9d7b-2ea45b56a654"]
-        },
-        {
-            "id": 23,
-            "nombre": "Marvel's Spider-Man",
-            "plataforma": "PlayStation 4",
-            "lanzamiento": "2018-09-07",
-            "precio": 39.99,
-            "imagen":["https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.31%20PM(2).jpeg?alt=media&token=4fb7248b-2747-46bc-aa86-c1936fc46333"] 
-        },
-        {
-            "id": 24,
-            "nombre": "Among Us",
-            "plataforma": "Multiplataforma",
-            "lanzamiento": "2018-06-15",
-            "precio": 4.99,
-            "imagen": ["https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/assassins-creed-valhalla-crossover-stories.jpg?alt=media&token=405f267c-ef2e-44a5-b65d-450ea782361b"]
-        },
-        {
-            "id": 25,
-            "nombre": "Rocket League",
-            "plataforma": "Multiplataforma",
-            "lanzamiento": "2015-07-07",
-            "precio": 19.99,
-            "imagen": ["https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.33%20PM.jpeg?alt=media&token=1e016011-56c8-42fe-bc60-343fb54ae725"]
-        },
-        {
-            "id": 26,
-            "nombre": "Genshin Impact",
-            "plataforma": "Multiplataforma",
-            "lanzamiento": "2020-09-28",
-            "precio":38.00,
-            "imagen":["https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/images.jpg?alt=media&token=76253261-ac16-4450-ae1d-8de94fac8ee4"] 
-        },
-        {
-            "id": 27,
-            "nombre": "Destiny 2",
-            "plataforma": "Multiplataforma",
-            "lanzamiento": "2017-09-06",
-            "precio": 29.99,
-            "imagen": ["https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/ffvii-advent-children.jpg?alt=media&token=ea49ed7e-fbd8-4eb6-83e8-2a440c3f6e1b"]
-        },
-        {
-            "id": 28,
-            "nombre": "Doom Eternal",
-            "plataforma": "Multiplataforma",
-            "lanzamiento": "2020-03-20",
-            "precio": 49.99,
-            "imagen": ["https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/assassin-s-creed-iii-liberation.webp?alt=media&token=207fd2d7-780e-4a1e-ad27-7973cd5f0f75"]
-        },
-        {
-            "id": 29,
-            "nombre": "Fall Guys: Ultimate Knockout",
-            "plataforma": "Multiplataforma",
-            "lanzamiento": "2020-08-04",
-            "precio": 19.99,
-            "imagen": ["https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.43%20PM(5).jpeg?alt=media&token=c78bf942-f8aa-44b1-a34a-0b108b5ab551"]
-        },
-        {
-            "id": 30,
-            "nombre": "Dark Souls III",
-            "plataforma": "Multiplataforma",
-            "lanzamiento": "2016-04-12",
-            "precio": 59.99,
-            "imagen":["https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.44%20PM.jpeg?alt=media&token=fd684871-4d88-4d13-a8b5-7ce4445a45b0"] 
-        },
-        {
-            "id": 31,
-            "nombre": "Final Fantasy VII Remake",
-            "plataforma": "PlayStation 4",
-            "lanzamiento": "2020-04-10",
-            "precio": 49.99,
-            "imagen": ["https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.44%20PM(3).jpeg?alt=media&token=fc430e46-afb1-4fd3-baf2-419e00dda07f"]
-        },
-        {
-            "id": 32,
-            "nombre": "Counter-Strike: Global Offensive",
-            "plataforma": "PC",
-            "lanzamiento": "2012-08-21",
-            "precio": 14.99,
-            "imagen": ["https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.44%20PM(1).jpeg?alt=media&token=92f650c9-8dae-4b5a-aa42-60d01fe02894"]
-        },
-        {
-            "id": 33,
-            "nombre": "NieR: Automata",
-            "plataforma": "Multiplataforma",
-            "lanzamiento": "2017-03-07",
-            "precio": 39.99,
-            "imagen": ["https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.43%20PM.jpeg?alt=media&token=b3a2782c-f162-4b29-9786-24112959fc71"]
-        },
-        {
-            "id": 34,
-            "nombre": "The Sims 4",
-            "plataforma": "PC, PlayStation 4, Xbox One",
-            "lanzamiento": "2014-09-02",
-            "precio": 39.99,
-            "imagen": ["https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.43%20PM(4).jpeg?alt=media&token=d9a83cd2-abf1-4bb5-bb28-85ccece37f3a"]
-        },
-        {
-            "id": 35,
-            "nombre": "Sekiro: Shadows Die Twice",
-            "plataforma": "Multiplataforma",
-            "lanzamiento": "2019-03-22",
-            "precio": 59.99,
-            "imagen": ["https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.43%20PM(3).jpeg?alt=media&token=3acb748d-f106-4423-876c-d18204f4e80f"]
-        },
-        {
-            "id": 36,
-            "nombre": "The Sims 3",
-            "plataforma": "PC, PlayStation 3, Xbox 360",
-            "lanzamiento": "2009-06-02",
-            "precio": 19.99,
-            "imagen":["https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.42%20PM.jpeg?alt=media&token=61ed2876-5d49-4648-a99f-00e5c0a76eb3"] 
-        },
-        {
-            "id": 37,
-            "nombre": "Dota 2",
-            "plataforma": "PC",
-            "lanzamiento": "2013-07-09",
-            "precio": 32.00,
-            "imagen": ["https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.42%20PM(3).jpeg?alt=media&token=3d79b92b-82eb-4085-a8ab-069f47dc5462"]
-        },
-        {
-            "id": 38,
-            "nombre": "Diablo III",
-            "plataforma": "PC, PlayStation 4, Xbox One",
-            "lanzamiento": "2012-05-15",
-            "precio": 29.99,
-            "imagen": ["https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.41%20PM.jpeg?alt=media&token=64cc242f-825b-4302-80a9-2e17a7825ef9"]
-        },
-        {
-            "id": 39,
-            "nombre": "Far Cry 5",
-            "plataforma": "PC, PlayStation 4, Xbox One",
-            "lanzamiento": "2018-03-27",
-            "precio": 49.99,
-            "imagen":[
-                "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.41%20PM(1).jpeg?alt=media&token=f6c7fb68-c191-4b6c-959c-07039e49d5cb"
-            ] 
-        },
-        {
-            "id": 40,
-            "nombre": "Tom Clancy's Rainbow Six: Siege",
-            "plataforma": "Multiplataforma",
-            "lanzamiento": "2015-12-01",
-            "precio": 29.99,
-            "imagen": [
-                "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.40%20PM(3).jpeg?alt=media&token=f71a6ee1-cad0-4161-a88b-96c61d51afc1"
-            ]
-        },
-        {
-            "id": 41,
-            "nombre": "Borderlands 3",
-            "plataforma": "PC, PlayStation 4, Xbox One",
-            "lanzamiento": "2019-09-13",
-            "precio": 59.99,
-            "imagen": [
-                "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.40%20PM(2).jpeg?alt=media&token=cfaf4a54-92a1-4e5d-bb6f-e00f59c3ef96"
-            ]
-        },
-        {
-            "id": 42,
-            "nombre": "The Elder Scrolls Online",
-            "plataforma": "PC, PlayStation 4, Xbox One",
-            "lanzamiento": "2014-04-04",
-            "precio": 19.99,
-            "imagen":[
-                "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.40%20PM(1).jpeg?alt=media&token=788d3661-f6fd-4a38-b4e0-56fa6e6fa00d"
-            ] 
-        },
-        {
-            "id": 43,
-            "nombre": "Resident Evil Village",
-            "plataforma": "PC, PlayStation 4, PlayStation 5, Xbox One, Xbox Series X/S",
-            "lanzamiento": "2021-05-07",
-            "precio": 49.99,
-            "imagen": [
-                "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.31%20PM(3).jpeg?alt=media&token=99d8ab9d-9029-4f24-99de-09a6b15c6f03"
-            ]
-        },
-        {
-            "id": 44,
-            "nombre": "Grand Theft Auto V",
-            "plataforma": "PC, PlayStation 3, PlayStation 4, Xbox 360, Xbox One",
-            "lanzamiento": "2013-09-17",
-            "precio": 29.99,
-            "imagen":[
-                "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.37%20PM.jpeg?alt=media&token=4ab96295-56a5-4300-a537-1aa2e0ab84ae"
-            ] 
-        },
-        {
-            "id": 45,
-            "nombre": "StarCraft II",
-            "plataforma": "PC",
-            "lanzamiento": "2010-07-27",
-            "precio": 49.99,
-            "imagen":[
-                "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.37%20PM(2).jpeg?alt=media&token=3774698a-df2a-4438-a73a-6bb1697a3211"
-            ] 
-        },
-        {
-            "id": 46,
-            "nombre": "Monster Hunter: World",
-            "plataforma": "PC, PlayStation 4, Xbox One",
-            "lanzamiento": "2018-08-09",
-            "precio": 39.99,
-            "imagen": ["https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.40%20PM.jpeg?alt=media&token=0247e6ed-a7d6-442b-897e-87fae3d32f4a"]
-        },
-        {
-            "id": 47,
-            "nombre": "Fallout 4",
-            "plataforma": "PC, PlayStation 4, Xbox One",
-            "lanzamiento": "2015-11-10",
-            "precio": 39.99,
-            "imagen":[
-                "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.41%20PM(1).jpeg?alt=media&token=f6c7fb68-c191-4b6c-959c-07039e49d5cb"
-            ] 
-        },
-        {
-            "id": 48,
-            "nombre": "Tom Clancy's The Division 2",
-            "plataforma": "PC, PlayStation 4, Xbox One",
-            "lanzamiento": "2019-03-15",
-            "precio": 49.99,
-            "imagen":[
-                "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.36%20PM(1).jpeg?alt=media&token=dbd1ae3f-7025-41fd-b560-c771b351db76"
-            ] 
-        },
-        {
-            "id": 49,
-            "nombre": "Nioh 2",
-            "plataforma": "PlayStation 4",
-            "lanzamiento": "2020-03-13",
-            "precio": 59.99,
-            "imagen": [
-                "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.31%20PM(4).jpeg?alt=media&token=2ef722fc-caca-4886-be25-65571f1c7cc2"
-            ]
-        },
-        {
-            "id": 50,
-            "nombre": "Cuphead",
-            "plataforma": "PC, Xbox One",
-            "lanzamiento": "2017-09-29",
-            "precio": 19.99,
-            "imagen": [
-                "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.31%20PM.jpeg?alt=media&token=160153b9-e5ad-4ead-8e3e-034b1ac1e011"
-            ]
-        }
-    ],
-    "usuario":[
-        {
-            "id": 1,
-            "nombre": "ari",
-            "username": "armels",
-            "email": "arm@gmail.com",
-            "clave": "1234",
-            "cargo": "usuario"
-        },
-        {
-            "id": 2,
-            "nombre": "Martin",
-            "username": "martinex",
-            "email": "marx@gmail.com",
-            "clave": "junes",
-            "cargo": "usuario"
-        }
-        
-    ]
+  "videojuegos": [
+    {
+      "id": 1,
+      "nombre": "The Legend of Zelda: Breath of the Wild",
+      "plataforma": "Nintendo Switch",
+      "lanzamiento": "2017-03-03",
+      "precio": 59.99,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/The_Legend_of_Zelda_Breath_of_the_Wild.jpg?alt=media&token=d313db59-e23b-4ce6-b135-1b49bdaf119a"
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Red Dead Redemption 2",
+      "plataforma": "PlayStation 4, Xbox One",
+      "lanzamiento": "2018-10-26",
+      "precio": 49.99,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/Red%20Dead%20Redemption%202.jpg?alt=media&token=38eda362-27d9-4e53-997d-e8d5abf783f1"
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Cyberpunk 2077",
+      "plataforma": "PC, PlayStation 4, Xbox One",
+      "lanzamiento": "2020-12-10",
+      "precio": 59.99,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/Cyberpunk_2077_box_art.jpg?alt=media&token=21967590-7a7f-4c7f-9ac5-b0b27efe09d5"
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "Super Mario Odyssey",
+      "plataforma": "Nintendo Switch",
+      "lanzamiento": "2017-10-27",
+      "precio": 54.99,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/super%20mario%20odssey.jpg?alt=media&token=07163722-6452-4766-b26d-4d7d9547bf43"
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": "The Witcher 3: Wild Hunt",
+      "plataforma": "PC, PlayStation 4, Xbox One",
+      "lanzamiento": "2015-05-19",
+      "precio": 39.99,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/The%20Witcher%203%20Wild%20Hunt.jpg?alt=media&token=9dcbb5c4-f2c1-4eea-8578-2b247fefb703"
+      ]
+    },
+    {
+      "id": 6,
+      "nombre": "Minecraft",
+      "plataforma": "Multiplataforma",
+      "lanzamiento": "2011-11-18",
+      "precio": 19.99,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/Minecraft.jpg?alt=media&token=16c027f6-fec6-4e38-adc7-ce507e2fe9e5"
+      ]
+    },
+    {
+      "id": 7,
+      "nombre": "Fortnite",
+      "plataforma": "Multiplataforma",
+      "lanzamiento": "2017-07-25",
+      "precio": 50,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/fornite.jpg?alt=media&token=3cf3cf77-5b6e-4574-8249-44723267c4d7"
+      ]
+    },
+    {
+      "id": 8,
+      "nombre": "Assassin's Creed Valhalla",
+      "plataforma": "PC, PlayStation 4, Xbox One",
+      "lanzamiento": "2020-11-10",
+      "precio": 49.99,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/assassins-creed-valhalla-crossover-stories.jpg?alt=media&token=405f267c-ef2e-44a5-b65d-450ea782361b"
+      ]
+    },
+    {
+      "id": 9,
+      "nombre": "Overwatch",
+      "plataforma": "PC, PlayStation 4, Xbox One",
+      "lanzamiento": "2016-05-24",
+      "precio": 39.99,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/Overwatch_cover_art.jpg?alt=media&token=f21807ab-7f57-4644-abdd-64d1a4a3ae8b"
+      ]
+    },
+    {
+      "id": 10,
+      "nombre": "God of War",
+      "plataforma": "PlayStation 4",
+      "lanzamiento": "2018-04-20",
+      "precio": 49.99,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.37%20PM(1).jpeg?alt=media&token=bbb25ff4-ba02-4836-8f37-0398af3b0c6c"
+      ]
+    },
+    {
+      "id": 11,
+      "nombre": "Persona 5",
+      "plataforma": "PlayStation 4",
+      "lanzamiento": "2017-04-04",
+      "precio": 49.99,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.31%20PM(1).jpeg?alt=media&token=0fbb2dad-3985-4c88-94da-993e817cc024"
+      ]
+    },
+    {
+      "id": 12,
+      "nombre": "Hollow Knight",
+      "plataforma": "Multiplataforma",
+      "lanzamiento": "2017-02-24",
+      "precio": 14.99,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.31%20PM(2).jpeg?alt=media&token=4fb7248b-2747-46bc-aa86-c1936fc46333"
+      ]
+    },
+    {
+      "id": 13,
+      "nombre": "League of Legends",
+      "plataforma": "PC",
+      "lanzamiento": "2009-10-27",
+      "precio": 29,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.41%20PM(2).jpeg?alt=media&token=a45f9dcd-b78c-4ffd-9ad2-9f4d17f9d2ef"
+      ]
+    },
+    {
+      "id": 14,
+      "nombre": "Animal Crossing: New Horizons",
+      "plataforma": "Nintendo Switch",
+      "lanzamiento": "2020-03-20",
+      "precio": 49.99,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.31%20PM(3).jpeg?alt=media&token=99d8ab9d-9029-4f24-99de-09a6b15c6f03"
+      ]
+    },
+    {
+      "id": 15,
+      "nombre": "FIFA 22",
+      "plataforma": "Multiplataforma",
+      "lanzamiento": "2021-10-01",
+      "precio": 59.99,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.31%20PM(4).jpeg?alt=media&token=2ef722fc-caca-4886-be25-65571f1c7cc2"
+      ]
+    },
+    {
+      "id": 16,
+      "nombre": "Call of Duty: Warzone",
+      "plataforma": "Multiplataforma",
+      "lanzamiento": "2020-03-10",
+      "precio": 42,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/60225-metal-gear-solid-3-subsistence-playstation-2_umwf.jpg?alt=media&token=07520cd1-6b85-4642-bba7-727347b14bc1"
+      ]
+    },
+    {
+      "id": 17,
+      "nombre": "The Elder Scrolls V: Skyrim",
+      "plataforma": "Multiplataforma",
+      "lanzamiento": "2011-11-11",
+      "precio": 39.99,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.31%20PM(3).jpeg?alt=media&token=99d8ab9d-9029-4f24-99de-09a6b15c6f03"
+      ]
+    },
+    {
+      "id": 18,
+      "nombre": "Star Wars Jedi: Fallen Order",
+      "plataforma": "PC, PlayStation 4, Xbox One",
+      "lanzamiento": "2019-11-15",
+      "precio": 59.99,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.31%20PM.jpeg?alt=media&token=160153b9-e5ad-4ead-8e3e-034b1ac1e011"
+      ]
+    },
+    {
+      "id": 19,
+      "nombre": "Rainbow Six Siege",
+      "plataforma": "Multiplataforma",
+      "lanzamiento": "2015-12-01",
+      "precio": 29.99,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.31%20PM(4).jpeg?alt=media&token=2ef722fc-caca-4886-be25-65571f1c7cc2"
+      ]
+    },
+    {
+      "id": 20,
+      "nombre": "Mortal Kombat 11",
+      "plataforma": "Multiplataforma",
+      "lanzamiento": "2019-04-23",
+      "precio": 49.99,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/metal-gear-solid-3-snake-eater.webp?alt=media&token=faf4fe16-204b-4030-908e-2948a87b547e"
+      ]
+    },
+    {
+      "id": 21,
+      "nombre": "The Last of Us Part II",
+      "plataforma": "PlayStation 4",
+      "lanzamiento": "2020-06-19",
+      "precio": 59.99,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/Overwatch_cover_art.jpg?alt=media&token=f21807ab-7f57-4644-abdd-64d1a4a3ae8b"
+      ]
+    },
+    {
+      "id": 22,
+      "nombre": "World of Warcraft",
+      "plataforma": "PC",
+      "lanzamiento": "2004-11-23",
+      "precio": 14.99,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/e9c4894d7df3d69dcd5e6ff9f7b8a33d.png?alt=media&token=8c9778ec-4238-44be-9d7b-2ea45b56a654"
+      ]
+    },
+    {
+      "id": 23,
+      "nombre": "Marvel's Spider-Man",
+      "plataforma": "PlayStation 4",
+      "lanzamiento": "2018-09-07",
+      "precio": 39.99,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.31%20PM(2).jpeg?alt=media&token=4fb7248b-2747-46bc-aa86-c1936fc46333"
+      ]
+    },
+    {
+      "id": 24,
+      "nombre": "Among Us",
+      "plataforma": "Multiplataforma",
+      "lanzamiento": "2018-06-15",
+      "precio": 4.99,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/assassins-creed-valhalla-crossover-stories.jpg?alt=media&token=405f267c-ef2e-44a5-b65d-450ea782361b"
+      ]
+    },
+    {
+      "id": 25,
+      "nombre": "Rocket League",
+      "plataforma": "Multiplataforma",
+      "lanzamiento": "2015-07-07",
+      "precio": 19.99,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.33%20PM.jpeg?alt=media&token=1e016011-56c8-42fe-bc60-343fb54ae725"
+      ]
+    },
+    {
+      "id": 26,
+      "nombre": "Genshin Impact",
+      "plataforma": "Multiplataforma",
+      "lanzamiento": "2020-09-28",
+      "precio": 38,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/images.jpg?alt=media&token=76253261-ac16-4450-ae1d-8de94fac8ee4"
+      ]
+    },
+    {
+      "id": 27,
+      "nombre": "Destiny 2",
+      "plataforma": "Multiplataforma",
+      "lanzamiento": "2017-09-06",
+      "precio": 29.99,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/ffvii-advent-children.jpg?alt=media&token=ea49ed7e-fbd8-4eb6-83e8-2a440c3f6e1b"
+      ]
+    },
+    {
+      "id": 28,
+      "nombre": "Doom Eternal",
+      "plataforma": "Multiplataforma",
+      "lanzamiento": "2020-03-20",
+      "precio": 49.99,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/assassin-s-creed-iii-liberation.webp?alt=media&token=207fd2d7-780e-4a1e-ad27-7973cd5f0f75"
+      ]
+    },
+    {
+      "id": 29,
+      "nombre": "Fall Guys: Ultimate Knockout",
+      "plataforma": "Multiplataforma",
+      "lanzamiento": "2020-08-04",
+      "precio": 19.99,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.43%20PM(5).jpeg?alt=media&token=c78bf942-f8aa-44b1-a34a-0b108b5ab551"
+      ]
+    },
+    {
+      "id": 30,
+      "nombre": "Dark Souls III",
+      "plataforma": "Multiplataforma",
+      "lanzamiento": "2016-04-12",
+      "precio": 59.99,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.44%20PM.jpeg?alt=media&token=fd684871-4d88-4d13-a8b5-7ce4445a45b0"
+      ]
+    },
+    {
+      "id": 31,
+      "nombre": "Final Fantasy VII Remake",
+      "plataforma": "PlayStation 4",
+      "lanzamiento": "2020-04-10",
+      "precio": 49.99,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.44%20PM(3).jpeg?alt=media&token=fc430e46-afb1-4fd3-baf2-419e00dda07f"
+      ]
+    },
+    {
+      "id": 32,
+      "nombre": "Counter-Strike: Global Offensive",
+      "plataforma": "PC",
+      "lanzamiento": "2012-08-21",
+      "precio": 14.99,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.44%20PM(1).jpeg?alt=media&token=92f650c9-8dae-4b5a-aa42-60d01fe02894"
+      ]
+    },
+    {
+      "id": 33,
+      "nombre": "NieR: Automata",
+      "plataforma": "Multiplataforma",
+      "lanzamiento": "2017-03-07",
+      "precio": 39.99,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.43%20PM.jpeg?alt=media&token=b3a2782c-f162-4b29-9786-24112959fc71"
+      ]
+    },
+    {
+      "id": 34,
+      "nombre": "The Sims 4",
+      "plataforma": "PC, PlayStation 4, Xbox One",
+      "lanzamiento": "2014-09-02",
+      "precio": 39.99,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.43%20PM(4).jpeg?alt=media&token=d9a83cd2-abf1-4bb5-bb28-85ccece37f3a"
+      ]
+    },
+    {
+      "id": 35,
+      "nombre": "Sekiro: Shadows Die Twice",
+      "plataforma": "Multiplataforma",
+      "lanzamiento": "2019-03-22",
+      "precio": 59.99,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.43%20PM(3).jpeg?alt=media&token=3acb748d-f106-4423-876c-d18204f4e80f"
+      ]
+    },
+    {
+      "id": 36,
+      "nombre": "The Sims 3",
+      "plataforma": "PC, PlayStation 3, Xbox 360",
+      "lanzamiento": "2009-06-02",
+      "precio": 19.99,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.42%20PM.jpeg?alt=media&token=61ed2876-5d49-4648-a99f-00e5c0a76eb3"
+      ]
+    },
+    {
+      "id": 37,
+      "nombre": "Dota 2",
+      "plataforma": "PC",
+      "lanzamiento": "2013-07-09",
+      "precio": 32,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.42%20PM(3).jpeg?alt=media&token=3d79b92b-82eb-4085-a8ab-069f47dc5462"
+      ]
+    },
+    {
+      "id": 38,
+      "nombre": "Diablo III",
+      "plataforma": "PC, PlayStation 4, Xbox One",
+      "lanzamiento": "2012-05-15",
+      "precio": 29.99,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.41%20PM.jpeg?alt=media&token=64cc242f-825b-4302-80a9-2e17a7825ef9"
+      ]
+    },
+    {
+      "id": 39,
+      "nombre": "Far Cry 5",
+      "plataforma": "PC, PlayStation 4, Xbox One",
+      "lanzamiento": "2018-03-27",
+      "precio": 49.99,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.41%20PM(1).jpeg?alt=media&token=f6c7fb68-c191-4b6c-959c-07039e49d5cb"
+      ]
+    },
+    {
+      "id": 40,
+      "nombre": "Tom Clancy's Rainbow Six: Siege",
+      "plataforma": "Multiplataforma",
+      "lanzamiento": "2015-12-01",
+      "precio": 29.99,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.40%20PM(3).jpeg?alt=media&token=f71a6ee1-cad0-4161-a88b-96c61d51afc1"
+      ]
+    },
+    {
+      "id": 41,
+      "nombre": "Borderlands 3",
+      "plataforma": "PC, PlayStation 4, Xbox One",
+      "lanzamiento": "2019-09-13",
+      "precio": 59.99,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.40%20PM(2).jpeg?alt=media&token=cfaf4a54-92a1-4e5d-bb6f-e00f59c3ef96"
+      ]
+    },
+    {
+      "id": 42,
+      "nombre": "The Elder Scrolls Online",
+      "plataforma": "PC, PlayStation 4, Xbox One",
+      "lanzamiento": "2014-04-04",
+      "precio": 19.99,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.40%20PM(1).jpeg?alt=media&token=788d3661-f6fd-4a38-b4e0-56fa6e6fa00d"
+      ]
+    },
+    {
+      "id": 43,
+      "nombre": "Resident Evil Village",
+      "plataforma": "PC, PlayStation 4, PlayStation 5, Xbox One, Xbox Series X/S",
+      "lanzamiento": "2021-05-07",
+      "precio": 49.99,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.31%20PM(3).jpeg?alt=media&token=99d8ab9d-9029-4f24-99de-09a6b15c6f03"
+      ]
+    },
+    {
+      "id": 44,
+      "nombre": "Grand Theft Auto V",
+      "plataforma": "PC, PlayStation 3, PlayStation 4, Xbox 360, Xbox One",
+      "lanzamiento": "2013-09-17",
+      "precio": 29.99,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.37%20PM.jpeg?alt=media&token=4ab96295-56a5-4300-a537-1aa2e0ab84ae"
+      ]
+    },
+    {
+      "id": 45,
+      "nombre": "StarCraft II",
+      "plataforma": "PC",
+      "lanzamiento": "2010-07-27",
+      "precio": 49.99,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.37%20PM(2).jpeg?alt=media&token=3774698a-df2a-4438-a73a-6bb1697a3211"
+      ]
+    },
+    {
+      "id": 46,
+      "nombre": "Monster Hunter: World",
+      "plataforma": "PC, PlayStation 4, Xbox One",
+      "lanzamiento": "2018-08-09",
+      "precio": 39.99,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.40%20PM.jpeg?alt=media&token=0247e6ed-a7d6-442b-897e-87fae3d32f4a"
+      ]
+    },
+    {
+      "id": 47,
+      "nombre": "Fallout 4",
+      "plataforma": "PC, PlayStation 4, Xbox One",
+      "lanzamiento": "2015-11-10",
+      "precio": 39.99,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.41%20PM(1).jpeg?alt=media&token=f6c7fb68-c191-4b6c-959c-07039e49d5cb"
+      ]
+    },
+    {
+      "id": 48,
+      "nombre": "Tom Clancy's The Division 2",
+      "plataforma": "PC, PlayStation 4, Xbox One",
+      "lanzamiento": "2019-03-15",
+      "precio": 49.99,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.36%20PM(1).jpeg?alt=media&token=dbd1ae3f-7025-41fd-b560-c771b351db76"
+      ]
+    },
+    {
+      "id": 49,
+      "nombre": "Nioh 2",
+      "plataforma": "PlayStation 4",
+      "lanzamiento": "2020-03-13",
+      "precio": 59.99,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.31%20PM(4).jpeg?alt=media&token=2ef722fc-caca-4886-be25-65571f1c7cc2"
+      ]
+    },
+    {
+      "id": 50,
+      "nombre": "Cuphead",
+      "plataforma": "PC, Xbox One",
+      "lanzamiento": "2017-09-29",
+      "precio": 19.99,
+      "imagen": [
+        "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.31%20PM.jpeg?alt=media&token=160153b9-e5ad-4ead-8e3e-034b1ac1e011"
+      ]
+    },
+    {
+      "id": "51",
+      "nombre": "MArio Kart",
+      "plataforma": "PC, PlayStation 4, Xbox One",
+      "lanzamiento": "1992-08-27",
+      "precio": "17.99",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.31%20PM.jpeg?alt=media&token=160153b9-e5ad-4ead-8e3e-034b1ac1e011"
+    }
+  ],
+  "usuario": [
+    {
+      "id": 1,
+      "nombre": "ari",
+      "username": "armels",
+      "email": "arm@gmail.com",
+      "clave": "1234",
+      "cargo": "usuario"
+    },
+    {
+      "id": 2,
+      "nombre": "Martin",
+      "username": "martinex",
+      "email": "marx@gmail.com",
+      "clave": "junes",
+      "cargo": "usuario"
+    }
+  ]
 }

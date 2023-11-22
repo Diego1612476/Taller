@@ -1,29 +1,28 @@
 <div class="container">
-        <a href="administrador"><button class="btn-danger" 
-    >Administrar página</button></a> 
+        <a href="administrador"><button class="glyphicon glyphicon-user"
+    >ADMINISTRAR</button></a> 
 
     <a href="carrito">
-    <button class="btn-success" 
-    >Ir carrito</button></a>
+    <button class="glyphicon glyphicon-shopping-cart" 
+    >IR CARRITO</button></a>
     <h2>Videojuegos Disponibles</h2>
     <p></p>
     <div class="row">
         <div class="col-md-4" *ngFor="let producto of dataProductos">
             <div class="thumbnail">
                 <a href="{{producto.imagen}}" target="_blank">
-                    <img src="{{producto.imagen}}" alt="Lights" class="imagen-producto">
+                    <img src="{{producto.imagen}}" style="width: 200" height="4000">
                 </a>
 
-                <div class="caption">
-                    <p>{{producto.id}}</p>
-                    <p>{{producto.nombre}}</p>
+                <div class="text-center">
+                    <h3>{{producto.nombre}}</h3>
                     <p>{{producto.plataforma}}</p>
                     <p>{{producto.lanzamiento}}</p>
-                    <p>{{producto.precio}}</p>
-                    <p>{{producto.imagen}}</p>
+                    <p class="text-danger">OFERTA!! {{producto.precio}}$</p>
                     <button class="btn-danger">Agregar</button>
                 </div>
             </div>
+            
         </div>
     </div>
 </div>

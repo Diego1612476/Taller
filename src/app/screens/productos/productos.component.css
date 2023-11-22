@@ -7,5 +7,5 @@
    color: white;
 }
 .imagen-producto{
-   height: 100%; ;
+   min-width:auto;
 }

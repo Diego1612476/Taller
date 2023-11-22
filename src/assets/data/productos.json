@@ -441,5 +441,19 @@
             "cargo": "usuario"
         }
         
+    ],
+    "login": [
+        {
+            "username": "armels",
+            
+            "clave": "1234",
+            "cargo": "usuario"
+        },
+        {
+            "username": "martinex",
+            
+            "clave": "junes",
+            "cargo": "admin"
+        }
     ]
 }

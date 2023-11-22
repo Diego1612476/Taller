@@ -17,6 +17,7 @@ import { TablaProductosComponent } from './screens/tabla-productos/tabla-prodcut
 import { RegistroVideojuegoComponent } from './screens/registro-videojuego/registro-videojuego.component';
 import { AdministradorComponent } from './screens/administrador/administrador.component'
 import { FormsModule } from '@angular/forms';
+import { LoginComponent } from './screens/login/login.component';
 
 
 
@@ -33,7 +34,8 @@ import { FormsModule } from '@angular/forms';
     TablaCarritoComponent,
     TablaProductosComponent,
     RegistroVideojuegoComponent,
-    AdministradorComponent
+    AdministradorComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

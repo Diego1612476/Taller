@@ -7,9 +7,9 @@ import { TerminosComponent } from './screens/terminos/terminos.component';
 import { ProductosComponent } from './screens/productos/productos.component';
 import { CarritoComponent } from './screens/carrito/carrito.component';
 import { AdministradorComponent } from './screens/administrador/administrador.component';
-import { usuarioGuard } from './guards/usuario.guard';
+
 import { LoginComponent } from './screens/login/login.component';
-import { productosGuard } from './guards/productos.guard';
+
 
 const routes: Routes = [
 

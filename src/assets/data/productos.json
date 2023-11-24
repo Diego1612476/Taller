@@ -502,11 +502,11 @@
     },
     {
       "id": "51",
-      "nombre": "MArio Kart",
+      "nombre": "Mario World",
       "plataforma": "PC, PlayStation 4, Xbox One",
       "lanzamiento": "1992-08-27",
       "precio": "17.99",
-      "imagen": "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.31%20PM.jpeg?alt=media&token=160153b9-e5ad-4ead-8e3e-034b1ac1e011"
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/taller-productos.appspot.com/o/WhatsApp%20Image%202023-11-15%20at%209.36.32%20PM.jpeg?alt=media&token=c90e839a-f446-4d31-ad24-c564d0c2f712"
     }
   ],
   "usuario": [
@@ -525,6 +525,20 @@
       "email": "marx@gmail.com",
       "clave": "junes",
       "cargo": "usuario"
+    }
+  ],
+  "carrito": [
+    {
+      "id": 1,
+      "nombre": "The Legend of Zelda: Breath of the Wild",
+      "plataforma": "Nintendo Switch",
+      "precio": 59.99
+    },
+    {
+      "id": "51",
+      "nombre": "Mario World",
+      "plataforma": "PC, PlayStation 4, Xbox One",
+      "precio": "17.99"
     }
   ]
 }

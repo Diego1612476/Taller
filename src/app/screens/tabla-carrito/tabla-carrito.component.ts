@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { CarritoService } from 'src/app/services/carrito/carrito.service';
 import { ProductosService } from 'src/app/services/productos/productos.service';
 
 interface Videojuego{
@@ -21,17 +22,25 @@ export class TablaCarritoComponent {//implements OnInit{
 
   carrito: Videojuego[] = [];
   total: number = 0;
-  constructor(private http: HttpClient){}
 
-  /*private API_PRODUCT="http://localhost:3000/videojuegos"
+  constructor(private Carritoservicio:CarritoService){}
+
+  dataCarrito:any
   ngOnInit(){
-    this.http.get(this.API_PRODUCT).subscribe(item=>{
-      this.dataProductos=item;
-      this.suma=sumarProductos(this.dataProductos.numeros);
-    });
+    this.Carritoservicio.getCarrito().subscribe(item=>{
+      this.dataCarrito=item
+    })
   }
 
-  sumarProductos(numeroProducto:number[]):number{
-    return numeros.reduce((a,b))
-  }*/
+  guardarCarrito(ide:any,nombrevid:any,plataformavid:any,lanzamientovid:any,valor:any){
+
+    const productos={
+      id:ide,
+      nombre:nombrevid,
+      plataforma:plataformavid,
+      lanzamiento:lanzamientovid,
+      precio:valor,
+    }
+    this.Carritoservicio.postCarrito(productos).subscribe()
+  }
 }

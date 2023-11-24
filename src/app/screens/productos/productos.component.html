@@ -8,7 +8,7 @@
     <h2>Videojuegos Disponibles</h2>
     <p></p>
     <div class="row">
-        <div class="col-md-4" *ngFor="let producto of dataProductos">
+        <div class="col-md-4" *ngFor="let producto of dataCarrito">
             <div class="thumbnail">
                 <a href="{{producto.imagen}}" target="_blank">
                     <img src="{{producto.imagen}}" style="width: 200" height="4000">
@@ -19,7 +19,8 @@
                     <p>{{producto.plataforma}}</p>
                     <p>{{producto.lanzamiento}}</p>
                     <p class="text-danger">OFERTA!! {{producto.precio}}$</p>
-                    <button class="btn-danger">Agregar</button>
+                    <button (click)="guardarCarrito( producto.id,producto.nombre, producto.plataforma, producto.precio)" 
+            class="btn btn-primary">Agrear</button>
                 </div>
             </div>
             

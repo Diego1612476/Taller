@@ -7,7 +7,6 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { HomeComponent } from './screens/home/home.component';
 import { UsuarioComponent } from './screens/usuario/usuario.component';
 import { Error404Component } from './screens/error404/error404.component';
-
 import { ProductosComponent } from './screens/productos/productos.component';
 import { TerminosComponent } from './screens/terminos/terminos.component';
 import { CarritoComponent } from './screens/carrito/carrito.component';
@@ -18,6 +17,7 @@ import { RegistroVideojuegoComponent } from './screens/registro-videojuego/regis
 import { AdministradorComponent } from './screens/administrador/administrador.component'
 import { FormsModule } from '@angular/forms';
 import { DetallesVideojuegoComponent } from './screens/detalles-videojuego/detalles-videojuego.component';
+import { LoginComponent } from './screens/login/login.component';
 
 
 
@@ -35,6 +35,7 @@ import { DetallesVideojuegoComponent } from './screens/detalles-videojuego/detal
     TablaProductosComponent,
     RegistroVideojuegoComponent,
     AdministradorComponent,
+    LoginComponent,
     DetallesVideojuegoComponent
   ],
   imports: [

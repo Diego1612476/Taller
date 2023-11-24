@@ -36,23 +36,9 @@ export class UsuarioComponent {
 
   
   // GUARDIAN
-  cargo:any;
+  
   
 
-  login(formulario:any){
-
-    let temp= JSON.stringify (formulario.value)
-
-    this.servicio.getUsuario().subscribe(item =>{
-      for (let doc of item){
-        if(temp === JSON.stringify(doc) ){
-          alert("ACCESO CORRECTO")
-          localStorage.setItem('login', 'true')
-        }
-      }
-    
-    })
-
-  }
+  
 
 }

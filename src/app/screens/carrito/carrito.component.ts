@@ -7,5 +7,9 @@ import { ProductosService } from 'src/app/services/productos/productos.service';
   styleUrls: ['./carrito.component.css']
 })
 export class CarritoComponent {
+  salir(){
+    localStorage.setItem('login', 'false')
+    window.location.reload()
+  }
 
 }

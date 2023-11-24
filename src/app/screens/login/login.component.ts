@@ -11,6 +11,10 @@ export class LoginComponent {
 
   constructor(private servicio:LoginService){}
 
+  username:any;
+  clave:any;
+  cargo:any
+
 
   login(formulario:any){
 
@@ -18,10 +22,12 @@ export class LoginComponent {
 
     this.servicio.getUsuario().subscribe(item =>{
       for (let doc of item){
+        console.log (doc)
         if(temp === JSON.stringify(doc) ){
           alert("ACCESO CORRECTO")
           localStorage.setItem('login', 'true')
-          localStorage.setItem('login', doc.cargo)
+          localStorage.setItem('rol', doc.cargo)
+
         }
       }
     

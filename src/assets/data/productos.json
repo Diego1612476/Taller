@@ -439,8 +439,24 @@
             "username": "martinex",
             "email": "marx@gmail.com",
             "clave": "junes",
-            "cargo": "usuario"
-        }
+            "cargo": "admin"
+        },
+        {
+          "id": 3,
+          "nombre": "David",
+          "username": "davinex",
+          "email": "davo@gmail.com",
+          "clave": "3333",
+          "cargo": "usuario"
+        },
+        {
+          "id": 4,
+          "nombre": "Analy",
+          "username": "anlesti",
+          "email": "aln@gmail.com",
+          "clave": "ferto",
+          "cargo": "admin"
+      }
         
     ],
     "login": [
@@ -455,6 +471,18 @@
             
             "clave": "junes",
             "cargo": "admin"
+        },
+        {
+          "username": "davinex",
+          
+          "clave": "3333",
+          "cargo": "usuario"
+        },
+        {
+        "username": "anlesti",
+        
+        "clave": "ferto",
+        "cargo": "admin"
         }
     ],
 

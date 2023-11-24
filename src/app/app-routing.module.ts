@@ -9,6 +9,8 @@ import { CarritoComponent } from './screens/carrito/carrito.component';
 import { AdministradorComponent } from './screens/administrador/administrador.component';
 
 import { LoginComponent } from './screens/login/login.component';
+import { usuarioGuard } from './guards/usuario.guard';
+import { productosGuard } from './guards/productos.guard';
 
 
 const routes: Routes = [
@@ -17,8 +19,8 @@ const routes: Routes = [
   {path: 'usuario', component:UsuarioComponent},
   {path:'terminos',component:TerminosComponent},
   {path:'productos',component:ProductosComponent},
-  {path:'carrito', component:CarritoComponent},
-  {path:'administrador',component:AdministradorComponent,},
+  {path:'carrito', component:CarritoComponent, canActivate:[productosGuard]},
+  {path:'administrador',component:AdministradorComponent, canActivate:[usuarioGuard]},
   {path:'login', component:LoginComponent},
 
   {path: '**',redirectTo:'home',pathMatch:'full'}

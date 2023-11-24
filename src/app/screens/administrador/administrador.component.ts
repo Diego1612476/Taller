@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AdministradorComponent {
 
+  salir(){
+    localStorage.setItem('login', 'false')
+    window.location.reload()
+  }
+
 }
